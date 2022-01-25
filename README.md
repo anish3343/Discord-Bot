@@ -1,2 +1,2 @@
 #discordbot
-A discird personal assistant bot (hopefully).
+A discord personal assistant bot (hopefully).
