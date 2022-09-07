@@ -8,7 +8,8 @@ client = discord.Client()
 
 @client.event
 async def on_ready():
-    print('Logged into {1} as {0.user}'.format(client, "XXXSERVER"))
+    for guild in client.guilds:
+        print('Logged into {1} as {0}'.format(client.user, guild.name))
 
 @client.event
 async def on_message(message):
